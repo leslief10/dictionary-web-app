@@ -1,0 +1,85 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-inconsolata: Inconsolata, monospace;
+  --font-inter: Inter, sans-serif;
+  --font-lora: Lora, serif;
+
+  /*Shoutout to https://www.color-name.com/ for the ~dramatic~ color names*/
+  --color-lavander-indigo: #a445ed;
+  --color-orange-red: #ff5252;
+  --color-vampire-black: #050505;
+  --color-eerie-black: #1f1f1f;
+  --color-charleston-green: #2d2d2d;
+  --color-black-olive: #3a3a3a;
+  --color-sonic-silver: #757575;
+  --color-bright-gray: #e9e9e9;
+  --color-cultured: #f4f4f4;
+}
+
+html {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../src/assets/fonts/inconsolata/Inconsolata-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../src/assets/fonts/inconsolata/Inconsolata-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../src/assets/fonts/inter/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../src/assets/fonts/inter/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../src/assets/fonts/lora/Lora-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../src/assets/fonts/lora/Lora-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../src/assets/fonts/lora/Lora-BoldItalic.ttf') format('truetype');
+}
