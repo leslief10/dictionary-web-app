@@ -1,4 +1,4 @@
-import { useDictionary } from '../context/DictionaryContext';
+import { useDictionary } from '../hooks/useDictionary';
 import playIcon from '../assets/images/icon-play.svg';
 
 const Definition = () => {

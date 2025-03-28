@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import searchIcon from '../assets/images/icon-search.svg';
-import { useDictionary } from '../context/DictionaryContext';
+import { useDictionary } from '../hooks/useDictionary';
 
 const SearchInput = () => {
   const [search, setSearch] = useState('');

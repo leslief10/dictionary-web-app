@@ -1,6 +1,6 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, useState } from 'react';
 
-const DictionaryContext = createContext([]);
+const DictionaryContext = createContext();
 
 const DictionaryProvider = ({ children }) => {
   const [words, setWords] = useState([]);
@@ -32,12 +32,4 @@ const DictionaryProvider = ({ children }) => {
   );
 };
 
-const useDictionary = () => {
-  const context = useContext(DictionaryContext);
-  if (context === undefined) {
-    throw new Error('useDictionary must be used within a DictionaryProvider');
-  }
-  return context;
-};
-
-export { DictionaryProvider, useDictionary };
+export { DictionaryProvider, DictionaryContext };
