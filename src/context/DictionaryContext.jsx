@@ -14,9 +14,6 @@ const DictionaryProvider = ({ children }) => {
     try {
       const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${search}`;
       const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error(`Word not found`);
-      }
       const data = await response.json();
       setWords(data);
     } catch (error) {

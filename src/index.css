@@ -30,10 +30,6 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  text-decoration: none;
-}
-
 ul {
   list-style: disc;
 }
