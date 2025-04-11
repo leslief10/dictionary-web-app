@@ -4,7 +4,7 @@ import { WordSource } from './WordSource';
 
 const WordDefinitions = ({ words }) => {
   return (
-    <div className="flex flex-col gap-10 px-6 py-7">
+    <div className="flex flex-col gap-10 px-6 py-7 md:px-10 md:py-11 md:min-w-3xl md:max-w-3xl">
       {words.map((word, index) => (
         <section
           key={`${word.word}-${index}`}

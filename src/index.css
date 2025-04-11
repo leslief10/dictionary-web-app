@@ -20,8 +20,12 @@
 
   --text-3xxl: 2rem;
   --text-3xxl--line-height: 2.5rem;
+  --text-6xxl: 4rem;
+  --text-6xxl--line-height: 4.5rem;
 
+  --spacing-tiny: 0.1875rem;
   --spacing-4-half: 1.125rem;
+  --spacing-15: 3.75rem;
 }
 
 html {

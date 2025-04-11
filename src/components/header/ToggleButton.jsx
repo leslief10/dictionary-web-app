@@ -26,10 +26,10 @@ const ToggleButton = () => {
     <div className="flex flex-row gap-3">
       <button
         onClick={() => setIsDark(!isDark)}
-        className="flex items-center gap-3"
+        className="flex items-center gap-3 outline-lavander-indigo dark:outline-white"
         aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
       >
-        <div className="w-10 h-5 bg-sonic-silver dark:bg-lavander-indigo rounded-full p-0.5">
+        <div className="w-10 h-5 p-tiny bg-sonic-silver hover:bg-lavander-indigo hover:cursor-pointer dark:bg-lavander-indigo rounded-full">
           <div
             className={`w-3.5 h-3.5 rounded-full bg-white transform transition-transform ${
               isDark ? 'translate-x-5' : ''
