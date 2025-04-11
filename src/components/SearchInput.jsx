@@ -32,7 +32,7 @@ const SearchInput = () => {
           <div className="flex">
             <input
               aria-label="Search for any word in the dictionary"
-              className={`w-full h-12 md:h-16 pr-3 md:pr-6 pl-6 md:pl-12 rounded-l-2xl text-base md:text-xl bg-cultured dark:bg-eerie-black outline-none placeholder:text-sonic-silver dark:placeholder:text-bright-gray font-bold text-charleston-green dark:text-white outline-lavander-indigo dark:outline-white hover:border hover:border-lavander-indigo hover:cursor-pointer
+              className={`w-full h-12 md:h-16 pr-3 md:pr-6 pl-6 md:pl-12 rounded-l-2xl text-base md:text-xl bg-cultured dark:bg-eerie-black outline-none placeholder:text-sonic-silver dark:placeholder:text-argent font-bold text-charleston-green dark:text-white outline-lavander-indigo dark:outline-white hover:border hover:border-lavander-indigo hover:cursor-pointer
                 ${inputError ? 'border border-orange-red' : ''}
                 [&::-webkit-search-cancel-button]:hidden`}
               id="search-input"

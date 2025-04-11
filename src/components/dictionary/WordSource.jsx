@@ -3,7 +3,7 @@ import newWindowIcon from '../../assets/images/icon-new-window.svg';
 const WordSource = ({ sourceUrls }) => {
   return (
     <div className="flex flex-col pt-6 md:pt-5 border-t border-bright-gray">
-      <span className="pb-2 text-sm text-sonic-silver dark:text-bright-gray underline">Source</span>
+      <span className="pb-2 text-sm text-sonic-silver dark:text-argent underline">Source</span>
       {sourceUrls.map((source, sourceIndex) => (
         <span key={sourceIndex} className="flex text-sm">
           <a
