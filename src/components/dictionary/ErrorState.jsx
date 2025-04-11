@@ -1,10 +1,10 @@
 const ErrorState = ({ error }) => {
   return (
-    <div className="flex flex-col items-center justify-center px-6 min-h-screen text-center">
+    <div className="flex flex-col flex-auto items-center justify-center px-6 md:px-10 text-center">
       <span className="text-6xl mb-11">&#128533;</span>
-      <h3 className="mb-6 text-lg font-bold text-charleston-green">{error.title}</h3>
-      <p className="text-base text-sonic-silver">{error.message}</p>
-      <p className="text-base text-sonic-silver">{error.resolution}</p>
+      <h3 className="mb-6 text-lg md:text-2xl font-bold text-charleston-green dark:text-white">{error.title}</h3>
+      <p className="text-base md:text-lg text-sonic-silver dark:text-bright-gray">{error.message}</p>
+      <p className="text-base md:text-lg text-sonic-silver dark:text-bright-gray">{error.resolution}</p>
     </div>
   );
 };
