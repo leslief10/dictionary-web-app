@@ -36,10 +36,6 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
 - [Vite](https://vite.dev/guide/)
 - [React.js](https://react.dev/learn)
 - [TailwindCSS](https://tailwindcss.com/docs/installation/using-vite)
@@ -48,8 +44,10 @@ Users should be able to:
 
 ### What I learned
 
-I've been playing with React for a while, but I hadn't made a proper project because I felt like I needed to internalize how it works and how to best use hooks and stuff, and honestly, that's a lie. I used like 2 hooks besides a custom one I created using Context API and I was able to create this so, yay me. I'd also made a couple of personal projects with TailwindCSS, and even though it's pretty cool not having to think to hard about the styling, I'm not super in love with how messy the components look with all the class names you need to add.
+I've been playing with React for a while, but I hadn't made a proper project because I felt like I needed to internalize how it works and how to best use hooks and stuff, and honestly, that's a lie. I used like 2 hooks besides a custom one I created using Context API and I was able to create this so, yay me.
+I'd also made a couple of personal projects with TailwindCSS, and even though it's pretty cool not having to think too hard about the styling, I'm not super in love with how messy the components look with all the class names you need to add.
 
 ### Continued development
 
 This project is roughly 80% done. I still need to add a button/popover to the header so you can change the typography from sans-serif, to serif or to monospace. I also need to add tests and improve the accessibility.
+I'm thinking of adding routing or a list of previously search words as well.

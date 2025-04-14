@@ -1,5 +1,6 @@
 import { useDictionary } from '../hooks/useDictionary';
 import { ErrorState } from './dictionary/ErrorState';
+import { EmptyState } from './dictionary/EmptyState';
 import { WordDefinitions } from './dictionary/WordDefinitions';
 
 const Definition = () => {
@@ -10,7 +11,7 @@ const Definition = () => {
   }
 
   if (!words.length) {
-    return null;
+    return <EmptyState />;
   }
 
   return <WordDefinitions words={words} />;
