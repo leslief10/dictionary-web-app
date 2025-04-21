@@ -23,7 +23,7 @@ const ToggleButton = () => {
   }, [isDark]);
 
   return (
-    <div className="flex flex-row gap-3">
+    <div className="flex flex-row gap-3 items-center">
       <button
         onClick={() => setIsDark(!isDark)}
         className="flex items-center gap-3 outline-lavander-indigo dark:outline-white"

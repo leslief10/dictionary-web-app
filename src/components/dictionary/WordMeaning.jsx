@@ -8,7 +8,7 @@ const WordMeaning = ({ meaning }) => {
       <span className="inline-block mb-4-half md:mb-6 text-base md:text-xl text-sonic-silver dark:text-argent">
         Meaning
       </span>
-      <ul className="px-4-half md:pl-9 md:px-0 marker:text-lavander-indigo">
+      <ul className="px-4-half md:pl-9 md:px-0 list-disc marker:text-lavander-indigo">
         {meaning.definitions.map((def, defIndex) => {
           if (def.example) {
             return (

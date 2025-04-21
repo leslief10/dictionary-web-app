@@ -4,7 +4,7 @@ const WordHeader = ({ word, phonetics }) => {
   return (
     <div>
       <h2 className="text-3xxl md:text-6xxl font-bold text-charleston-green dark:text-white">{word}</h2>
-      <div className="flex flex-row flex-wrap gap-x-8 gap-y-1">
+      <div className="flex flex-row flex-wrap gap-x-8 gap-y-1 pt-2.5">
         {phonetics.map((phonetic, index) => {
           if (!phonetic.text) return null;
           return (

@@ -27,6 +27,9 @@
   --spacing-tiny: 0.1875rem;
   --spacing-4-half: 1.125rem;
   --spacing-15: 3.75rem;
+
+  --shadow-custom: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+  --shadow-custom-dark-mode: 0px 0px 20px 0px rgb(164, 69, 237);
 }
 
 html {
@@ -35,10 +38,6 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-ul {
-  list-style: disc;
 }
 
 @font-face {
