@@ -22,7 +22,7 @@ Users should be able to:
 - See the Free Dictionary API's response for the searched word
 - See a form validation message when trying to submit a blank form
 - Play the audio file for a word when it's available
-- Switch between serif, sans serif, and monospace fonts **(pending)**
+- Switch between serif, sans serif, and monospace fonts
 - Switch between light and dark themes
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
@@ -49,5 +49,5 @@ I'd also made a couple of personal projects with TailwindCSS, and even though it
 
 ### Continued development
 
-This project is roughly 80% done. I still need to add a button/popover to the header so you can change the typography from sans-serif, to serif or to monospace. I also need to add tests and improve the accessibility.
+This project is roughly ~~80%~~ 85-90% done. ~~I still need to add a button/popover to the header so you can change the typography from sans-serif, to serif or to monospace.~~ I ~~also~~ need to add tests and improve the accessibility.
 I'm thinking of adding routing or a list of previously search words as well.
