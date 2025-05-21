@@ -70,7 +70,7 @@ const FontSelector = () => {
   return (
     <div className="relative flex" onKeyDown={handleKeyDown} ref={dropdownRef}>
       <button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => setIsOpen((isOpen) => !isOpen)}
         className="flex flex-row items-center gap-3 text-sm md:text-lg font-bold text-charleston-green dark:text-white hover:cursor-pointer outline-lavander-indigo dark:outline-white"
         aria-expanded={isOpen}
         aria-haspopup="listbox"
