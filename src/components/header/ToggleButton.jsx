@@ -37,10 +37,7 @@ const ToggleButton = () => {
           />
         </div>
       </button>
-      <MoonIcon
-        className="text-sonic-silver dark:text-lavander-indigo"
-        alt={isDark ? 'Moon Icon is in dark mode' : 'Moon Icon is in light mode'}
-      />
+      <MoonIcon className="text-sonic-silver dark:text-lavander-indigo" />
     </div>
   );
 };

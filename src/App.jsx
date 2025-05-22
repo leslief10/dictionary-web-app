@@ -7,8 +7,10 @@ function App() {
   return (
     <DictionaryProvider>
       <Header />
-      <SearchInput />
-      <Definition />
+      <main className="flex flex-col flex-auto">
+        <SearchInput />
+        <Definition />
+      </main>
     </DictionaryProvider>
   );
 }

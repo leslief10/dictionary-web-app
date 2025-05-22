@@ -16,10 +16,7 @@ const WordHeader = ({ word, phonetics }) => {
                   aria-label="Listen to pronunciation"
                   className="w-6 h-6 md:w-8 md:h-8 outline-lavander-indigo dark:outline-white hover:cursor-pointer"
                 >
-                  <PlayIcon
-                    className="w-6 h-6 md:w-8 md:h-8 text-lavander-indigo opacity-50 hover:opacity-100"
-                    alt="Listen to pronunciation"
-                  />
+                  <PlayIcon className="w-6 h-6 md:w-8 md:h-8 text-lavander-indigo opacity-50 hover:opacity-100" />
                 </button>
               )}
             </div>
